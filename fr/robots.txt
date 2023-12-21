@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bicheTortue.github.io/fr/sitemap.xml
