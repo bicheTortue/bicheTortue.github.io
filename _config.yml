@@ -229,6 +229,10 @@ plugins:
   - jemoji
   - jekyll-multiple-languages-plugin
 
+# multi language settings
+languages: ["en", "fr"]
+default_locale_in_subfolder: false
+
 # Sitemap settings
 defaults:
   - scope:
