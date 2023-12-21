@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bicheTortue.github.io/valentin/sitemap.xml
+Sitemap: https://bicheTortue.github.io/sitemap.xml
