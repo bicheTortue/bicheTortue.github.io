@@ -8,3 +8,56 @@ titles:
   teaching: Teaching
   submenus: Submenus
   unk: Page not found
+projects:
+  titles:
+    project1: Project 1
+    project2: Project 2
+    project3: Project 3
+    project4: Project 4
+    project5: Project 5
+    project6: Project 6
+cv:
+  places:
+    lisbon: Lisbon (Portugal)
+    gre: Grenoble (France)
+    montaub: Montauban (France)
+  edu:
+    title: Education
+    cpge: Preparatory school (PTSI-PT)
+    imag: Software Engineering Degree
+    ist: M.Sc. in Electrical and Computer Engineering
+    desc:
+      thesis: 'Thesis : <a href="https://github.com/bicheTortue/MSc-thesis/releases/download/Final/thesis.pdf">Memristors-based recurrent modules for neural computing</a>'
+      projectc: "C project : In groups of 3, using the C language to code a decoder the JPEG image format."
+      gl: "Compiler project : In groups of 5, using the Java language to code a compiler for an in-house object oriented programming language. The compiler also compiles for the Nintendo Gameboy."
+      cpge: Preparatory school oriented for industrial systems
+  uni:
+    bourdelle: Lycée Antoine Bourdelle
+    imag: Grenoble INP - Ensimag, UGA
+    ist: Instituto Superior Tecnico
+  exp:
+    title: Professional experiences
+    stage2a: Assistant engineer internship
+    tima: TIMA Laboratory
+    desc:
+      tima1: "Multicore RISC-V platform : gem5 modeling and evaluation"
+      tima2: Setting up a gem5 simulation for performance and accuracy evaluation of a doctorate’s qemu caches simulation plugin
+  hobby:
+    title: Hobbies
+    bouldering: Bouldering
+  val: 
+    title: General information
+    value:
+      name: Valentin BARBAZA
+      bday: 2nd November 1999
+      langs: French, English
+    field: 
+      name: Full name
+      bday: Date of birth
+      langs: Languages
+  skills:
+    title: Skills
+posts:
+  titles:
+    post2: A long announcement with details
+contact_note: The best way to reach me is using my e-mail address.

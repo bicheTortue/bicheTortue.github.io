@@ -1,89 +1,54 @@
-- title: General Information
+- title: cv.val.title
   type: map
   contents:
-    - name: Full Name
-      value: Valentin BARBAZA
-    - name: Date of Birth
-      value: 2nd November 1999
-    - name: Languages
-      value: French, English
+    - name: cv.val.field.name
+      value: cv.val.value.name
+    - name: cv.val.field.bday
+      value: cv.val.value.bday
+    - name: cv.val.field.langs
+      value: cv.val.value.langs
 
-- title: Education
+- title: cv.edu.title
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: cv.edu.ist
+      institution: cv.uni.ist
+      location: cv.places.lisbon
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - cv.edu.desc.thesis
+    - title: cv.edu.imag
+      institution: cv.uni.imag
+      location: cv.places.gre
+      year: 2024
+      description:
+        - title: titles.projects
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - cv.edu.desc.gl
+            - cv.edu.desc.projectc
+    - title: cv.edu.cpge
+      institution: cv.uni.bourdelle
+      location: cv.places.montaub
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - cv.edu.desc.cpge
 
-- title: Experience
+- title: cv.exp.title
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: cv.exp.stage2a
+      institution: cv.exp.tima
+      location: cv.places.gre
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - cv.exp.desc.tima1
+        - cv.exp.desc.tima2
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: cv.skills.title
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
@@ -91,7 +56,7 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
+- title: cv.hobby.title
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - cv.hobby.bouldering
