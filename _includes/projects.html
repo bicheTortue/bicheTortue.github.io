@@ -4,7 +4,7 @@
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
-    <a href="{{ project.url | pretend: site.baseurl }}">
+    <a href="{{ project.url | prepend: site.baseurl }}">
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
