@@ -17,20 +17,10 @@ descriptions:
 projects:
   titles:
     masterthesis: Mémoire
-    project1: Projet 1
-    project2: Projet 2
-    project3: Projet 3
-    project4: Projet 4
-    project5: Projet 5
-    project6: Projet 6
+    galaxybuds-gnome-extension: Galaxy buds gnome
   descriptions:
     masterthesis: Un rapide résumé de mon mémoire
-    project1: Un projet avec une image de fond
-    project2: Un projet avec une image de fond
-    project3: Un projet avec redirection sur un autre site
-    project4: Un projet sans image
-    project5: Encore un projet avec une image de fond
-    project6: Un projet sans image de fond
+    galaxybuds-gnome-extension: Extension gnome intégrants les galaxy buds de Samsung
   categories:
     fun: Fun
     work: Travail

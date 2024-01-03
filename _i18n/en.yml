@@ -17,20 +17,10 @@ descriptions:
 projects:
   titles:
     masterthesis: Master thesis
-    project1: Project 1
-    project2: Project 2
-    project3: Project 3
-    project4: Project 4
-    project5: Project 5
-    project6: Project 6
+    galaxybuds-gnome-extension: Galaxy buds gnome
   descriptions:
     masterthesis: A quick overview of my master thesis
-    project1: A project with a background image
-    project2: A project with a background image
-    project3: A project that redirects to another website
-    project4: Another without an image
-    project5: A project with a background image
-    project6: A project with no image
+    galaxybuds-gnome-extension: Gnome extension for Samsung's galaxy buds integration
   categories:
     fun: Fun
     work: Work
