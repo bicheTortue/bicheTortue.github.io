@@ -16,47 +16,6 @@ projects:
     project4: Projet 4
     project5: Projet 5
     project6: Projet 6
-cv:
-  places:
-    lisbon: Lisbonne (Portugal)
-    gre: Grenoble (France)
-    montaub: Montauban (France)
-  edu:
-    title: Études
-    cpge: CPGE (PTSI-PT)
-    imag: Dîplome d'Ingénieur en informatique
-    ist: M.Sc. en Électronique
-    desc:
-      thesis: 'Mémoire : <a href="https://github.com/bicheTortue/MSc-thesis/releases/download/Final/thesis.pdf">Memristors-based recurrent modules for neural computing</a>'
-      projectc: "Projet C : En groupe de 3, développer en C, un décodeur pour les images au format JPEG."
-      gl: "Projet génie logiciel : En groupe de 5, développer en Java, un compilateur pour un language de programmation orienté objet interne à l'école. Le compilateur compile aussi pour la Nintendo Gameboy."
-      cpge: Classe préparatoire orineté vers les systèmes industriels
-  uni:
-    bourdelle: Lycée Antoine Bourdelle
-    imag: Grenoble INP - Ensimag, UGA
-    ist: Instituto Superior Tecnico
-  exp:
-    title: Éxperience professionnelle
-    stage2a: Stage assistant ingénieur
-    tima: Laboratoire TIMA
-    desc:
-      tima1: "Multicore RISC-V platform : gem5 modeling and evaluation" 
-      tima2: Mise en place d'une simulation gem5 pour déterminer la précision et vitesse d'execution d'un plugin qemu permettant de recréer des caches.
-  hobby:
-    title: Passions
-    bouldering: Escalade
-  val: 
-    title: Informations générales
-    value:
-      name: Valentin BARBAZA
-      bday: 2 novembre 1999
-      langs: Français, Anglais
-    field: 
-      name: Nom complet
-      bday: Date de naissance
-      langs: Langues
-  skills:
-    title: Compétences
 posts:
   titles:
     post2: Une annonce longue avec détails

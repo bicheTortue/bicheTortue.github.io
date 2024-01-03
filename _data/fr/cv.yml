@@ -1,0 +1,61 @@
+- title: Informations générales
+  type: map
+  contents:
+    - name: Nom complet
+      value: Valentin BARBAZA
+    - name: Date de naissance
+      value: 2 novembre 1999
+    - name: Langues
+      value: Français, Anglais
+
+- title: Études
+  type: time_table
+  contents:
+    - title: M.Sc. en Électronique
+      institution: Instituto Superior Tecnico
+      location: Lisbonne (Portugal)
+      year: 2024
+      description:
+        - 'Mémoire : <a href="https://github.com/bicheTortue/MSc-thesis/releases/download/Final/thesis.pdf">Memristors-based recurrent modules for neural computing</a>'
+    - title: Dîplome d'Ingénieur en informatique
+      institution: Grenoble INP - Ensimag, UGA
+      location: Grenoble (France)
+      year: 2024
+      description:
+        - title: Projets
+          contents:
+            - "Projet génie logiciel : En groupe de 5, développer en Java, un compilateur pour un language de programmation orienté objet interne à l'école. Le compilateur compile aussi pour la Nintendo Gameboy."
+            - "Projet C : En groupe de 3, développer en C, un décodeur pour les images au format JPEG."
+    - title: CPGE (PTSI-PT)
+      institution: Lycée Antoine Bourdelle
+      location: Montauban (France)
+      year: 2018 - 2020
+      description:
+        - Classe préparatoire orineté vers les systèmes industriels
+- title: Éxperiences professionnelles
+  type: time_table
+  contents:
+    - title: Stage assistant ingénieur
+      institution: Laboratoire TIMA
+      location: Grenoble (France)
+      year: 2022
+      description:
+        - "Multicore RISC-V platform : gem5 modeling and evaluation" 
+        - Mise en place d'une simulation gem5 pour déterminer la précision et vitesse d'execution d'un plugin qemu permettant de recréer des caches.
+
+- title: Compétences
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Passions
+  type: list
+  contents:
+    - Escalade

@@ -1,0 +1,62 @@
+- title: General information
+  type: map
+  contents:
+    - name: Full name
+      value: Valentin BARBAZA
+    - name: Date of birth
+      value: 2nd November 1999
+    - name: Languages
+      value: French, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Sc. in Electrical and Computer Engineering
+      institution: Instituto Superior Tecnico
+      location: Lisbon (Portugal)
+      year: 2024
+      description:
+        - 'Thesis : <a href="https://github.com/bicheTortue/MSc-thesis/releases/download/Final/thesis.pdf">Memristors-based recurrent modules for neural computing</a>'
+    - title: Software Engineering Degree
+      institution: Grenoble INP - Ensimag, UGA
+      location: Grenoble (France)
+      year: 2024
+      description:
+        - title: titles.projects
+          contents:
+            - "Compiler project : In groups of 5, using the Java language to code a compiler for an in-house object oriented programming language. The compiler also compiles for the Nintendo Gameboy."
+            - "C project : In groups of 3, using the C language to code a decoder the JPEG image format."
+    - title: Preparatory school (PTSI-PT)
+      institution: Lycée Antoine Bourdelle
+      location: Montauban (France)
+      year: 2018 - 2020
+      description:
+        - Preparatory school oriented for industrial systems
+
+- title: Professional experiences
+  type: time_table
+  contents:
+    - title: Assistant engineer internship
+      institution: TIMA Laboratory
+      location: Grenoble (France)
+      year: 2022
+      description:
+        - "Multicore RISC-V platform : gem5 modeling and evaluation"
+        - Setting up a gem5 simulation for performance and accuracy evaluation of a doctorate’s qemu caches simulation plugin
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Hobbies
+  type: list
+  contents:
+    - Bouldering
