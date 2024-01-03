@@ -2,7 +2,7 @@
 layout: page
 title: projects.titles.galaxybuds-gnome-extension
 description: projects.descriptions.galaxybuds-gnome-extension
-img: assets/projects/mthesis/lstmCircuit.svg
+#img: assets/projects/mthesis/lstmCircuit.svg
 importance: 1
 category: fun
 github: https://github.com/bicheTortue/galaxybuds-gnome-extension
