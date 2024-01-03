@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - bicheTortue
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - bicheTortue/NN-netlist-generator
+  - bicheTortue/weights-generator
+  - bicheTortue/cadence-files
