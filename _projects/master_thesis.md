@@ -2,9 +2,10 @@
 layout: page
 title: projects.titles.masterthesis
 description: projects.descriptions.masterthesis
-img: assets/img/12.jpg
+img: assets/projects/mthesis/lstmCircuit.svg
 importance: 1
 category: work
+github: https://github.com/bicheTortue/MSc-thesis
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
