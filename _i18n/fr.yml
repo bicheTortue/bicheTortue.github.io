@@ -8,14 +8,32 @@ titles:
   teaching: Cours
   submenus: Sous-menus
   unk: Page non trouvée
+descriptions:
+  about: Biographie
+  publications: Publications par categories dans ordre chronologique inversé.
+  projects: Le regroupement de mes différents projets. 
+  repositories: Cette pages contients des informations sur mon compte github.
+  unk: Vous vous êtes perdus sur le site, il n'y a rien à voir ici.
 projects:
   titles:
+    masterthesis: Mémoire
     project1: Projet 1
     project2: Projet 2
     project3: Projet 3
     project4: Projet 4
     project5: Projet 5
     project6: Projet 6
+  descriptions:
+    masterthesis: Un rapide résumé de mon mémoire
+    project1: Un projet avec une image de fond
+    project2: Un projet avec une image de fond
+    project3: Un projet avec redirection sur un autre site
+    project4: Un projet sans image
+    project5: Encore un projet avec une image de fond
+    project6: Un projet sans image de fond
+  categories:
+    fun: Fun
+    work: Travail
 posts:
   titles:
     post2: Une annonce longue avec détails
