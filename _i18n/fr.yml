@@ -8,14 +8,22 @@ titles:
   teaching: Cours
   submenus: Sous-menus
   unk: Page non trouvée
+descriptions:
+  about: Biographie
+  publications: Publications par categories dans ordre chronologique inversé.
+  projects: Le regroupement de mes différents projets. 
+  repositories: Cette pages contients des informations sur mon compte github.
+  unk: Vous vous êtes perdus sur le site, il n'y a rien à voir ici.
 projects:
   titles:
-    project1: Projet 1
-    project2: Projet 2
-    project3: Projet 3
-    project4: Projet 4
-    project5: Projet 5
-    project6: Projet 6
+    masterthesis: Mémoire
+    galaxybuds-gnome-extension: Galaxy buds gnome
+  descriptions:
+    masterthesis: Un rapide résumé de mon mémoire
+    galaxybuds-gnome-extension: Extension gnome intégrants les galaxy buds de Samsung
+  categories:
+    fun: Fun
+    work: Travail
 posts:
   titles:
     post2: Une annonce longue avec détails

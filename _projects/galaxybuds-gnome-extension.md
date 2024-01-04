@@ -1,10 +1,11 @@
 ---
 layout: page
-title: projects.titles.project5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: projects.titles.galaxybuds-gnome-extension
+description: projects.descriptions.galaxybuds-gnome-extension
+#img: assets/projects/mthesis/lstmCircuit.svg
+importance: 1
 category: fun
+github: https://github.com/bicheTortue/galaxybuds-gnome-extension
 ---
 
 Every project has a beautiful feature showcase page.
