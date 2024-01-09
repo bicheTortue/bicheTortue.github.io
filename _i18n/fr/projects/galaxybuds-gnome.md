@@ -2,11 +2,11 @@ Le but de ce projet est de mettre à jour [cette](https://github.com/sidilabs/ga
 
 Les objectifs de ce projets sont :
 
-- D'apprendre les extensions Gnome
+- [] Porter l'extension vers Gnome 45
 
-- Merge le résultat avec le repo original une fois le portage terminé.
+- [] Merge le résultat avec le repo original une fois le portage terminé.
 
-- Ajouter de potentielle fonctionnalité.
+- [] Ajouter de potentielle fonctionnalité.
 
 <div class="row">
     <div class="col">

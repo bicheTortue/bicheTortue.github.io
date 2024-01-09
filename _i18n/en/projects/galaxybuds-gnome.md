@@ -2,11 +2,11 @@ The point of this project is to port [this](https://github.com/sidilabs/galaxybu
 
 The objectives of this project are :
 
-- Learn about Gnome extensions
+- [] Porting the extension to Gnome 45
 
-- Merging with the original repo once the work is done.
+- [] Merging with the original repo once the work is done.
 
-- Potentially add new features
+- [] Potentially add new features
 
 <div class="row">
     <div class="col">
