@@ -1,14 +1,14 @@
 ---
 layout: page
-title: projects.titles.galaxybuds-gnome-extension
-description: projects.descriptions.galaxybuds-gnome-extension
-#img: assets/projects/mthesis/lstmCircuit.svg
+title: projects.titles.galaxybuds-gnome
+description: projects.descriptions.galaxybuds-gnome
+img: assets/projects/galaxybuds-gnome/screenshot.png
 importance: 1
 category: fun
 github: https://github.com/bicheTortue/galaxybuds-gnome-extension
 ---
 
-{% translate_file projects/galaxybuds-gnome-extension.md %}
+{% translate_file projects/galaxybuds-gnome.md %}
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

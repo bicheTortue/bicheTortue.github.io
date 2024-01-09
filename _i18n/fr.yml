@@ -17,10 +17,10 @@ descriptions:
 projects:
   titles:
     masterthesis: Mémoire
-    galaxybuds-gnome-extension: Galaxy buds gnome
+    galaxybuds-gnome: Galaxy buds gnome
   descriptions:
     masterthesis: Un rapide résumé de mon mémoire
-    galaxybuds-gnome-extension: Extension gnome intégrants les galaxy buds de Samsung
+    galaxybuds-gnome: Extension gnome intégrants les galaxy buds de Samsung
   categories:
     fun: Fun
     work: Travail

@@ -17,10 +17,10 @@ descriptions:
 projects:
   titles:
     masterthesis: Master thesis
-    galaxybuds-gnome-extension: Galaxy buds gnome
+    galaxybuds-gnome: Galaxy buds gnome
   descriptions:
     masterthesis: A quick overview of my master thesis
-    galaxybuds-gnome-extension: Gnome extension for Samsung's galaxy buds integration
+    galaxybuds-gnome: Gnome extension for Samsung's galaxy buds integration
   categories:
     fun: Fun
     work: Work
