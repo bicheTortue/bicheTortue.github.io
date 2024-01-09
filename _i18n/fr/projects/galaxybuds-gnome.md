@@ -6,6 +6,10 @@ Les objectifs de ce projets sont :
 
 - [] Merge le résultat avec le repo original une fois le portage terminé.
 
+- [] Publier l'extension sur le repo d'extension Gnome
+
+- [] Faire un PKGBUILD pour l'AUR
+
 - [] Ajouter de potentielle fonctionnalité.
 
 <div class="row">

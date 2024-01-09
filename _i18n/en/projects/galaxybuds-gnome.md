@@ -6,6 +6,10 @@ The objectives of this project are :
 
 - [] Merging with the original repo once the work is done.
 
+- [] Publish the app on gnome extension repo
+
+- [] Make an AUR entry
+
 - [] Potentially add new features
 
 <div class="row">
