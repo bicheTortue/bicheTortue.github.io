@@ -2,7 +2,7 @@ Le but de ce projet est de mettre à jour [cette](https://github.com/sidilabs/ga
 
 Les objectifs de ce projets sont :
 
-- [] Porter l'extension vers Gnome 45
+- [x] Porter l'extension vers Gnome 45
 
 - [] Merge le résultat avec le repo original une fois le portage terminé.
 
@@ -10,7 +10,9 @@ Les objectifs de ce projets sont :
 
 - [] Faire un PKGBUILD pour l'AUR
 
-- [] Ajouter de potentielle fonctionnalité.
+- [x] Ajouter de potentielle fonctionnalité.
+
+- [] Faire une application GTK/libAdwaita pour gérer les options des écouteurs. 
 
 <div class="row">
     <div class="col">
@@ -24,3 +26,11 @@ Les objectifs de ce projets sont :
     <div class="col">
     </div>
 </div>
+
+Le portage fini, voici les nouvelles fonctionnalitées à ajouter :
+
+- [x] Montrer quand un des écouteurs est connecté ou non.
+
+- [] Afficher les différents états possible des écouteurs.
+
+- [] Ouvrir dans l'application dédié.

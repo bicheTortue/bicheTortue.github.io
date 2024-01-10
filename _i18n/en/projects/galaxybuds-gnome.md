@@ -2,7 +2,7 @@ The point of this project is to port [this](https://github.com/sidilabs/galaxybu
 
 The objectives of this project are :
 
-- [] Porting the extension to Gnome 45
+- [x] Porting the extension to Gnome 45
 
 - [] Merging with the original repo once the work is done.
 
@@ -10,7 +10,9 @@ The objectives of this project are :
 
 - [] Make an AUR entry
 
-- [] Potentially add new features
+- [x] Potentially add new features
+
+- [] Make a GTK/libAwaita application to manage the earbuds.
 
 <div class="row">
     <div class="col">
@@ -24,3 +26,11 @@ The objectives of this project are :
     <div class="col">
     </div>
 </div>
+
+The porting is done, the new features to add are :
+
+- [x] Showing when connected or not.
+
+- [] Showing the different states.
+
+- [] Opening into the app.
