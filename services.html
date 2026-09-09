@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbaza's Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="components.js" defer></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 min-h-screen font-sans flex flex-col justify-between selection:bg-blue-600 selection:text-white antialiased">
+
+    <div class="max-w-4xl mx-auto px-4 py-12 w-full">
+      <!-- Reusable Header -->
+      <site-header></site-header>
+
+      <!-- Services Grid -->
+      <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <a href="https://nuage.barbaza.org" target="_blank" class="group bg-slate-900/60 border border-slate-800 hover:border-slate-700 hover:bg-slate-900/90 p-5 rounded-2xl transition-all block">
+          <div class="flex justify-between items-start mb-3">
+            <span class="text-2xl">☁️</span>
+            <span class="text-slate-500 group-hover:text-slate-300">↗</span>
+          </div>
+          <h2 class="font-semibold text-white group-hover:text-blue-400">Nextcloud</h2>
+          <p class="text-xs text-slate-400 mt-1">Files & backups</p>
+        </a>
+
+        <a href="https://valha.barbaza.org" target="_blank" class="group bg-slate-900/60 border border-slate-800 hover:border-slate-700 hover:bg-slate-900/90 p-5 rounded-2xl transition-all block">
+          <div class="flex justify-between items-start mb-3">
+            <span class="text-2xl">🏠</span>
+            <span class="text-slate-500 group-hover:text-slate-300">↗</span>
+          </div>
+          <h2 class="font-semibold text-white group-hover:text-blue-400">Home Assistant</h2>
+          <p class="text-xs text-slate-400 mt-1">Smart home automation</p>
+        </a>
+
+        <a href="photo.barbaza.org" target="_blank" class="group bg-slate-900/60 border border-slate-800 hover:border-slate-700 hover:bg-slate-900/90 p-5 rounded-2xl transition-all block">
+          <div class="flex justify-between items-start mb-3">
+            <span class="text-2xl">🎬</span>
+            <span class="text-slate-500 group-hover:text-slate-300">↗</span>
+          </div>
+          <h2 class="font-semibold text-white group-hover:text-blue-400">Immich</h2>
+          <p class="text-xs text-slate-400 mt-1">Photo storage</p>
+        </a>
+      </main>
+    </div>
+
+    <!-- Reusable Footer -->
+    <site-footer></site-footer>
+
+  </body>
+</html>
