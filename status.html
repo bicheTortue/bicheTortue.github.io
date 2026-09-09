@@ -63,20 +63,18 @@
 
             container.innerHTML += `
             <a href="${s.url}" target="_blank" class="group bg-slate-900/60 border border-slate-800 hover:border-slate-700 hover:bg-slate-900/90 p-5 rounded-2xl transition-all block">
-              <div class="bg-slate-900/60 border border-slate-800/80 p-4 rounded-xl flex items-center justify-between">
-                <div class="space-y-0.5">
-                  <div class="font-medium text-white text-sm">${s.name}</div>
-                  <div class="text-xs text-slate-500 truncate max-w-[220px] sm:max-w-none">${s.url}</div>
-                </div>
-                <div class="flex items-center gap-2.5">
-                  <span class="text-xs font-mono ${isUp ? 'text-emerald-400' : 'text-rose-400'}">
-                    ${isUp ? 'Operational' : 'HTTP ' + s.code}
-                  </span>
-                  <span class="relative flex h-2.5 w-2.5">
-                    ${isUp ? '<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>' : ''}
-                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 ${isUp ? 'bg-emerald-500' : 'bg-rose-500'}"></span>
-                  </span>
-                </div>
+              <div class="space-y-0.5">
+                <div class="font-medium text-white text-sm">${s.name}</div>
+                <div class="text-xs text-slate-500 truncate max-w-[220px] sm:max-w-none">${s.url}</div>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <span class="text-xs font-mono ${isUp ? 'text-emerald-400' : 'text-rose-400'}">
+                  ${isUp ? 'Operational' : 'HTTP ' + s.code}
+                </span>
+                <span class="relative flex h-2.5 w-2.5">
+                  ${isUp ? '<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>' : ''}
+                  <span class="relative inline-flex rounded-full h-2.5 w-2.5 ${isUp ? 'bg-emerald-500' : 'bg-rose-500'}"></span>
+                </span>
               </div>
             </a>
           `;
