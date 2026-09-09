@@ -54,12 +54,13 @@ class SiteFooter extends HTMLElement {
           <div>© Homelab Infrastructure</div>
           <div class="flex items-center gap-4">
             <!-- Email -->
-<img class="w-6 h-6 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity logo" src="logos/email.svg" alt="E-Mail Logo">
+            <a href="mailto:valentin@barbaza.org" target="_blank" class="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
+              <img class="w-4 h-4 object-contain shrink-0 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity logo" src="logos/email.svg" alt="E-Mail Logo">
               E-Mail
             </a>
             <!-- Matrix -->
             <a href="https://matrix.to/#/@valentin:barbaza.org" target="_blank" class="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
-<img class="w-6 h-6 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity logo" src="logos/matrix.svg" alt="The Matrix Logo">
+              <img class="w-4 h-4 object-contain shrink-0 brightness-0 invert opacity-70 hover:opacity-100 transition-opacity logo" src="logos/matrix.svg" alt="The Matrix Logo">
               Matrix
             </a>
           </div>
