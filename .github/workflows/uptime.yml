@@ -61,3 +61,20 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add status.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update service status [skip ci]" && git push)
+
+      - name: Send email alert
+        if: env.HAS_FAILURES == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: barbaza-org-smtp.dynu.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "Alert: One or more services are DOWN!"
+          to: valentin@barbaza.org
+          from: GitHub Actions <alert@barbaza.org>
+          body: |
+            The following services failed their health check:
+
+            ${{ env.FAIL_BODY }}
