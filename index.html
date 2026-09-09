@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbaza Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: 'class' };
+    </script>
     <script src="components.js" defer></script>
   </head>
-  <body class="bg-slate-950 text-slate-100 min-h-screen font-sans flex flex-col justify-between selection:bg-blue-600 selection:text-white antialiased">
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen font-sans flex flex-col justify-between transition-colors duration-200 antialiased">
 
     <div class="max-w-4xl mx-auto px-4 py-12 w-full">
-
-      <!-- Top Header & Navigation -->
       <site-header></site-header>
 
-      <!-- Services Grid -->
-      <main>
-        <p>
+      <!-- Services Grid (styled for both light & dark) -->
+      <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
         This a placeholder text, find stuff to write
         </p>
-      </main>
 
+        <!-- Repeat with your other services -->
+      </main>
     </div>
 
-    <!-- Shared Footer -->
     <site-footer></site-footer>
+
   </body>
 </html>
