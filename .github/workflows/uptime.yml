@@ -1,0 +1,63 @@
+name: Uptime Monitor
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Endpoints
+        run: |
+          SERVICES=(
+            "Nextcloud|https://nuage.barbaza.org"
+            "Home Assistant|https://valha.barbaza.org"
+            "Immich|https://photo.barbaza.org"
+            "Matrix|https://matrix.barbaza.org"
+          )
+
+          mkdir -p data
+          OUTPUT="["
+          FIRST=true
+
+          for entry in "${SERVICES[@]}"; do
+            IFS="|" read -r NAME URL <<< "$entry"
+            
+            # Ping using curl (times out after 5s)
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$URL" || echo "000")
+            
+            if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 400 ]; then
+              STATUS="up"
+            else
+              STATUS="down"
+            fi
+
+            if [ "$FIRST" = true ]; then
+              FIRST=false
+            else
+              OUTPUT+=","
+            fi
+
+            OUTPUT+="{\"name\":\"$NAME\",\"url\":\"$URL\",\"status\":\"$STATUS\",\"code\":$HTTP_CODE}"
+          done
+
+          OUTPUT+="]"
+          
+          # Write to data/status.json
+          echo "{\"last_updated\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\", \"services\": $OUTPUT}" > status.json
+
+      - name: Commit and push status
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update service status [skip ci]" && git push)
