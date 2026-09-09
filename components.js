@@ -2,7 +2,7 @@
 const NAV_ITEMS = [
 	{name: 'Home', href: 'index.html'},
 	{name: 'Status', href: 'status.html'},
-	{name: 'Services', href: 'services.html'},
+	// {name: 'Services', href: 'services.html'},
 	// To add a new page later, just add: { name: 'About', href: 'about.html' }
 ];
 
