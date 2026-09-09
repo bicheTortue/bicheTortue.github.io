@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbaza's Services</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = { darkMode: 'class' };
-    </script>
     <script src="components.js" defer></script>
   </head>
-  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen font-sans flex flex-col justify-between transition-colors duration-200 antialiased">
+  <body class="bg-slate-950 text-slate-100 min-h-screen font-sans flex flex-col justify-between selection:bg-blue-600 selection:text-white antialiased">
 
     <div class="max-w-4xl mx-auto px-4 py-12 w-full">
+      <!-- Reusable Header -->
       <site-header></site-header>
 
-      <!-- Services Grid (styled for both light & dark) -->
+      <!-- Services Grid -->
       <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <a href="https://nuage.barbaza.org" target="_blank" class="group bg-slate-900/60 border border-slate-800 hover:border-slate-700 hover:bg-slate-900/90 p-5 rounded-2xl transition-all block">
           <div class="flex justify-between items-start mb-3">
@@ -46,6 +44,7 @@
       </main>
     </div>
 
+    <!-- Reusable Footer -->
     <site-footer></site-footer>
 
   </body>
