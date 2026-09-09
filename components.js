@@ -40,7 +40,10 @@ function updateThemeIcons() {
 // --- CONFIGURE YOUR TABS HERE ---
 const NAV_ITEMS = [
 	{name: 'Home', href: 'index.html'},
+<<<<<<< HEAD
 	{name: 'Services', href: 'services.html'},
+=======
+>>>>>>> parent of e8606bb2 (Added new services tab)
 	{name: 'Status', href: 'status.html'},
 	// To add a new page later, just add: { name: 'About', href: 'about.html' }
 ];
@@ -109,7 +112,7 @@ class SiteFooter extends HTMLElement {
 		this.innerHTML = `
       <footer class="border-t border-slate-900 bg-slate-950/80 py-8 px-4 w-full mt-auto">
         <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>Barbaza's website</div>
+          <div>© Homelab Infrastructure</div>
           <div class="flex items-center gap-4">
             <!-- Email -->
             <a href="mailto:valentin@barbaza.org" target="_blank" class="flex items-center gap-1.5 hover:text-slate-300 transition-colors">
